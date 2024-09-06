@@ -1,6 +1,6 @@
 Full name: Bea Patricia G. Mercado
 Degree Program: Bachelor of Science in Computer Science
-Live Website link:
+Live Website link: https://cmsc100-laboratory.github.io/02-my-github-page-beamercado/
 Steps on how to create a GitHub page:
 
 1. Create a repository named "<username>.github.io" (in this activity, the repository was automatically created after accepting the assignment in the GitHub Classroom).
