@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI';
+}
+
+body {
+    background-color: #ebe5de;
+    color: #f0f0f0;
+    line-height: 1.6;
+}
+
+h3 {
+    font-size: 28px;
+    color: #062905;
+    margin-bottom: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* HEADER */
+header {
+    background-color: #e4e0d7;
+    padding: 20px 0;
+    text-align: right;
+    border-bottom: 3px solid black;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo {
+    height: 50px;
+    width: auto;
+}
+
+nav a {
+    color: #062905;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #38a856;
+}
+
+/* INTRO SECTION */
+#intro {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+.intro-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+.intro-text {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.intro-text h3 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.intro-text p {
+    font-size: 20px;
+}
+
+.intro-photo {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.featured-photo {
+    width: 100%;
+}
+
+/* PROJECTS SECTION */
+#projects {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #e7dcd0;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.project-card {
+    background-color:  #e4e0d7;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+}
+
+.project-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.project-card h4 {
+    font-size: 22px;
+    color: #38a856;
+}
+
+.project-card p {
+    font-size: 16px;
+    color: #062905;
+}
+
+/* SKILLS & AUTOBIOGRAPHY SECTION */
+#skills {
+    margin-top: 40px;
+    padding: 20px;
+    border-bottom: 1px solid black;
+    
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills-column {
+    flex: 1;
+    margin-right: 20px;
+    border-right: 3px solid black;
+}
+
+.skills-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills-column ul li {
+    color: black;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.autobiography {
+    flex: 2;
+}
+
+.autobiography p {
+    font-size: 16px;
+    color: black;
+}
+
+/* FOOTER */
+footer {
+    background-color: #e4e0d7;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer-container {
+    color: black;
+}
